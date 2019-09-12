@@ -12,7 +12,8 @@ def erat(n):
                 numbers[k]=False
                 k+=i
             i+=1
-        i+=1
+        else:
+            i+=1
     return [x for x in range(2,n) if numbers[x]]
 
 num=int(input("Enter a number: "))
